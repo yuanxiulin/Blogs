@@ -1,4 +1,5 @@
 技术栈:vue2.0
+
 1,过滤器
  <h2 style="padding:10px;color:black" v-rainrow>
             {{ item.title | toMsg }}  
