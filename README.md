@@ -26,10 +26,10 @@ directives: {
 },
 
 3,输入框筛选
-<templete>
+
 <el-input type="text" autocomplete="off" v-model="search"></el-input>
 <li v-for="item in fullname" :key="item.id"></li>
-</templete>
+
 export default {
   data() {
     return {
